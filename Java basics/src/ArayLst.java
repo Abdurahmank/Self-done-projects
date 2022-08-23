@@ -10,6 +10,12 @@ public class ArayLst {
 		array[2] = "pappaya";
 
 		System.out.println(array[2]);
+		
+		System.out.println("-------------------------------------------------");
+		
+		System.out.println("printing array using enhanced for loop");
+		for( String a : array)
+			System.out.println(a); //printing array using enhanced for loop
 
 		System.out.println("-------------------------------------------------");
 
